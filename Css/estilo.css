@@ -5,7 +5,8 @@
      outline: 0;
      vertical-align: baseline;
      background: transparent;
-     font-family: Oxygen;
+     font-family: "Montserrat";
+     box-sizing: border-box;
  }
 
 
@@ -16,6 +17,7 @@
      position: relative;
      text-align: left;
      
+
  }
 
  .menu-nav ul li {
@@ -32,7 +34,7 @@
  .menu-a {
      text-decoration: none;
      color: #2f2e2e;
-     font-size: 16px;
+     font-size: 14px;
 
  }
 
@@ -59,4 +61,31 @@
      margin-top: -55px;
      padding: 0 10px 5px 5px;
 
+ }
+
+ .titulo {
+     text-align: center;
+     margin-top: 100px;
+     line-height: 35px;
+     
+     
+ }
+
+ .titulo p span {
+     font-size: 18px;
+     font-weight: normal;
+     letter-spacing: 0.1em;
+     text-transform: uppercase;
+     
+    
+ }
+
+ .titulo h1 span {
+     font-size: 55px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .banner img {
+     width: 100%;
+    
  }
