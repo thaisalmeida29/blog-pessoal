@@ -121,3 +121,54 @@
      width: 265px;
  }
  
+ .section-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    
+ }
+ .section-post-tomate img {
+     margin: auto;
+     width: 700px;
+    
+     
+ }
+
+ .section-post-tomate h2 {
+     text-align: center;
+     
+ }
+
+ .section-post-tomate h2:hover {
+     color: #fdbd81;
+     cursor: pointer;
+ }
+
+ .aside-sobre {
+     float: right;
+     margin-left: 55px;
+     margin-bottom: 90px;
+
+
+ }
+
+ .aside-sobre img {
+     width: 200px;
+     background-color: #eaf2f5;
+ }
+.tille-subtitle {
+    width: 200px;
+    background-color: #eaf2f5;
+    
+}
+
+.tille-subtitle h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tille-subtitle p {
+   
+    flex-wrap: wrap;
+}
