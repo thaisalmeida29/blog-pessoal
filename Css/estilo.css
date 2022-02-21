@@ -110,7 +110,6 @@
  .section-fotos h3 {
      text-align: center;
      margin: 5px 10px 15px 20px;
-    
      background-color: #fdbd81;
      border-radius: 5px;
      
@@ -140,7 +139,7 @@
      
  }
 
- .section-post-tomate h2:hover {
+ .section-post-tomate h2:hover, .section-post-legumes h2:hover, .section-post-comida h2:hover{
      color: #fdbd81;
      cursor: pointer;
  }
@@ -172,3 +171,107 @@
    
     flex-wrap: wrap;
 }
+
+.section-post-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-right: 245px;
+}
+
+.section-post-1 img {
+    width: 700px;
+}
+ 
+.section-post-legumes h2, .section-post-comida h2{
+    text-align: center;
+}
+
+.section-post-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-right: 245px;
+}
+
+.section-post-2 img {
+    width: 700px;
+}
+
+.fotos {
+    display: flex;
+    margin-top: 55px;
+
+}
+
+.fotos img {
+    width: 20%;
+    height: 15rem;
+}
+
+.button a  {
+    background-color: #ffe5ce;
+    text-decoration: none;
+    border-radius: 2px;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    padding: 18px;
+    
+}
+.button {
+    margin-top: 50px;
+    line-height: 4;
+    margin: 10px;
+    color: #000;
+    margin-left: 155px;
+}
+
+.button a:hover {
+    background-color: aliceblue;
+}
+
+.footer {
+    background-color: hsl(28, 100%, 91%);
+    text-align: center;
+    margin-top: 100px;
+}
+.footer p {
+    text-transform: uppercase;
+    line-height: 5;
+}
+.footer input {
+    width: 700px;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.footer .cor {
+    background-color: #2f2e2e;
+    width: 728px;
+    font-size: 14px;
+    color: #eaf2f5;
+}
+
+.footer .cor:hover {
+    background-color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.social-footer {
+    display: block;
+    margin-top: -63px;
+    padding: 0 400px 15px 15px;
+  
+}
+
+.social-footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
